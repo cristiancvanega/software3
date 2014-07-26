@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 23, 2014, 9:21:45 PM
+    Author     : CRISTIAN
+*/
+body{
+    background: #EEE;
+    font: small-caption;
+    font-size: 11px;
+    margin: auto;
+}
+
+a{
+    background: -webkit-linear-gradient( #FFF , #DDD);
+    border: 1px solid #BBB;
+    border-radius: 5px;
+    color: #111;
+    float: left;
+    height: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px -1px 0px #white;
+    width: 100px;
+}
+
+section{
+    float: left;
+    background: -webkit-linear-gradient( #F7F9E , #FFF);
+    border: 1px solid #BBB;
+    border-radius: 10px;
+    margin-left: 30;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 370px;
+    padding: 10px;
+    width: 300px;
+}
+
+section label{
+    float: left;
+    height: 30px;
+    text-align: center;
+    width: 120px;
+    background-color: #C0DEDE;
+    margin-top: 10px;
+    border-radius: 7px;
+    float: top;
+}
+
+section input, select{
+    border-radius: 5;
+    border: #C0DEDE 1px solid;
+    height: 30px;
+    margin: 0px 0px 0px 10px;
+    outline: none;    
+    float: top;
+    border-radius: 7px;
+}
+
+section input:focus{
+    box-shadow: 0px 0px 4px #C0DEDE;
+}
+
+.error{
+    background: #DD0000;
+    color: white;
+    display: none;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 30px;
+    margin: 0px 0px 0px 20px;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+    border-radius: 8px;
+}
+
+img{
+    border-radius: 15px;
+    border: darkgray 3px solid;
+}
+
+img:hover{
+    border-radius: 16px;
+    border: darkgray 4px double;
+}
+/*input{
+    border-radius: 7px;
+    float: top;
+}*/
+/*#productos{
+    height: 450px;
+}*/
