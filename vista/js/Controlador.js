@@ -37,8 +37,8 @@ $(document).ready(function() {
 
 function carga() {
 //    alert("alert");
-    $.post('Controlador/DAO.php ', {
-        clase: "CargarVista",
+    $.post('controlador/DAO.php ', {
+        clase: "cargarVista",
         oper: "cargaProductos"
     }, function(exito) {
         console.log(exito);
